@@ -115,3 +115,39 @@ A automação foi estruturada com base no conceito de separação de responsabil
 * **Facilitar a manutenção dos testes**
 * **Permitir o reuso de código**
 * **Separar lógica de negócio, estrutura de testes e recursos**
+
+
+## ✅ Pré-requisitos
+Antes de rodar o projeto, é necessário garantir que os seguintes softwares estejam instalados na sua máquina:
+* **Python 3.8+**
+* **Google Chrome**
+* **ChromeDriver (compatível com a versão do seu Chrome)**
+* **pip – Gerenciador de pacotes do Python**
+
+## 📄 Documentação de Instalação:
+Segue arquivo PDF com o passo a passo completo para instalação do Python, Robot Framework e ChromeDriver incluso neste repositório.
+Consulte o arquivo **Guia_de_instalação_Robot_Framework.pdf** para orientações detalhadas de configuração do ambiente.
+
+## 📦 Instalação das dependências
+As bibliotecas utilizadas no projeto estão listadas no arquivo **requirements.txt.**
+Para instalar todas as dependências necessárias, execute o seguinte comando no terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+## ✅ Bibliotecas utilizadas
+O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
+
+```
+| Biblioteca                         | Descrição                                           |
+| ---------------------------------- | --------------------------------------------------- |
+| `robotframework`                   | Framework principal para automação de testes        |
+| `robotframework-seleniumlibrary`   | Suporte para testes em interfaces web com Selenium  |
+| `robotframework-requests`          | Suporte para testes de APIs REST                    |
+| `robotframework-jsonlibrary`       | Manipulação e verificação de JSON                   |
+| `robotframework-faker`             | Geração de dados falsos para testes dinâmicos       |
+| `robotframework-jsonschemalibrary` | Validação de JSON Schema                            |
+| `chromedriver`                     | Driver necessário para execução no navegador Chrome |
+```
