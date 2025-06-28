@@ -151,3 +151,27 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 | `robotframework-jsonschemalibrary` | Validação de JSON Schema                            |
 | `chromedriver`                     | Driver necessário para execução no navegador Chrome |
 ```
+
+
+## ⚙️ Executando os testes
+
+```
+
+| Cenário                       | Comando                         |
+| ------------------------------| ------------------------------- |
+| Rodar apenas testes de API    | `robot --include api .`         |
+| Rodar apenas testes de Web    | `robot --include web .`         |
+| Rodar smoke tests da Web      | `robot --include smoke .`       |
+| Rodar testes de GET da API    | `robot --include get .`         |
+| Rodar testes de POST da API   | `robot --include post .`        |
+| Rodar testes de PUT da API    | `robot --include put .`         |
+| Rodar testes de DELETE da API | `robot --include delete .`      |
+| Rodar testes de regressão     | `robot --include regression .`  |
+```
+
+## Executando testes:
+
+![image](https://github.com/user-attachments/assets/035d274b-5d07-42de-8028-1de9e34a6ce5)
+
+![image](https://github.com/user-attachments/assets/a7ae7767-ccbe-4e36-8633-76c9ac9d6f73)
+
