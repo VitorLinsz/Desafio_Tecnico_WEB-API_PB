@@ -17,9 +17,9 @@
 ### 2. Quais abordagens de teste você consideraria?
 
 * **Análise de risco do projeto:** Identificar fluxos mais críticos e testes obrigatórios.
-* **BDD para padronização de testes e bugs:** Facilita comunicação entre time técnico e de negócios.
-* **Categorizacão de problemas:** Identifica causa raiz dos bugs e gera métricas para retrospectivas.
-* **Testes regressivos:** Sempre atualizados e com foco em automatização.
+* **BDD para padronização de testes e bugs:** Facilitar comunicação entre time técnico e de negócios.
+* **Categorizacão de problemas:** Identificar causa raiz dos bugs e gerar métricas para retrospectivas.
+* **Testes regressivos:** Desenvolver testes regressivos, priorizando automação
 * **Implementação CI/CD:** Executar testes a cada merge/release nas branches.
 * **Qualidade do código automatizado:** Monitorar métricas e identificar falsos positivos.
 
@@ -31,12 +31,12 @@
 * **Integração**: Entre módulos internos/externos
 * **Sistema (E2E)**
 * **Funcionais Positivos e Negativos**
-* **Não Funcionais:** Desempenho, carga, segurança
+* **Não Funcionais:** Desempenho, carga, segurança e usabilidade
 * **Caixa Branca:** Validação da lógica do código com devs
 
 **Testes Relacionados à Mudança:**
 
-* **Confirmação:** Após bug fix
+* **Confirmação:** Após correção de bugs
 * **Regressão:** Garantia de estabilidade
 * **Manutenção:** Alterações de regras/funções
 
