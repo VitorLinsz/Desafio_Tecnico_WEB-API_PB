@@ -176,6 +176,7 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 | Rodar testes de regressão     | `robot --include regression .`  |
 ```
 
+```
 ### 🧪 Execução de testes via terminal com filtros por tags
 [Execução de testes via terminal com filtros por tags](https://github.com/VitorLinsz/Desafio_Tecnico_WEB-API_PB/blob/main/ParanaBanco/GuiaDeInstala%C3%A7%C3%A3oRobot/Terminal_com_filtros.png)
 
@@ -184,7 +185,7 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 
 ### 📊 Exemplo de relatório do Robot Framework (report.html)
 [Exemplo de relatório do Robot Framework (report.html)](https://github.com/VitorLinsz/Desafio_Tecnico_WEB-API_PB/blob/main/ParanaBanco/GuiaDeInstala%C3%A7%C3%A3oRobot/Robot_log.png)
-
+```
 
 
 
