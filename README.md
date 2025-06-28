@@ -67,6 +67,8 @@
 Atuaria desde o início aplicando **Shift-left testing**, contribuindo em planejamento, definição de critérios de aceite e execução de testes. Também participaria ativamente do time, apoiando e sendo apoiado por pessoas de negócio, devs e demais membros do time. Contribuiria com **testes automatizados**, alimentando o fluxo de CI/CD e garantindo confiabilidade das entregas com cobertura regressiva.
 
 
+
+
 ## 🗂 Estrutura do Projeto
 
 ```
@@ -105,3 +107,11 @@ automacaoapi/
 
 ```
 
+## 🧱 Arquitetura do Projeto de Testes Automatizados
+A automação foi estruturada com base no conceito de separação de responsabilidades, utilizando uma arquitetura similar ao POM (Page Object Model), com adaptações para testes de interface e API utilizando Robot Framework.
+
+### 📌 Objetivos da Arquitetura
+* **Tornar o projeto escalável**
+* **Facilitar a manutenção dos testes**
+* **Permitir o reuso de código**
+* **Separar lógica de negócio, estrutura de testes e recursos**
