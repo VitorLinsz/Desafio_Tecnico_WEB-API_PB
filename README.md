@@ -186,7 +186,10 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 [Exemplo de relatório do Robot Framework (report.html)](https://github.com/VitorLinsz/Desafio_Tecnico_WEB-API_PB/blob/main/ParanaBanco/GuiaDeInstala%C3%A7%C3%A3oRobot/Robot_log.png)
 
 
+
+
 ## 👤 Sobre o Autor
 
 Desenvolvido por **Vitor Lins** – Analista de Automação de Testes Sênior  
-📫 [LinkedIn](https://www.linkedin.com/in/seu-perfil](https://www.linkedin.com/in/vitor-ara%C3%BAjo-lins-48107918a/)  
+📫 [LinkedIn](https://www.linkedin.com/in/vitor-ara%C3%BAjo-lins-48107918a/)  
+
