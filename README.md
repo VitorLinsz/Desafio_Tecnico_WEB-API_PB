@@ -177,11 +177,11 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 ```
 
 ### 🧪 Execução de testes via terminal com filtros por tags
-(https://github.com/user-attachments/assets/035d274b-5d07-42de-8028-1de9e34a6ce5)
+[Execução de testes via terminal com filtros por tags](https://github.com/VitorLinsz/Desafio_Tecnico_WEB-API_PB/blob/main/ParanaBanco/GuiaDeInstala%C3%A7%C3%A3oRobot/Terminal_com_filtros.png)
 
 ### 📸 Execução dos testes web no navegador (Robot Framework + Selenium)
-(https://github.com/user-attachments/assets/a7ae7767-ccbe-4e36-8633-76c9ac9d6f73)
+[Execução dos testes web no navegador (Robot Framework + Selenium)](https://github.com/VitorLinsz/Desafio_Tecnico_WEB-API_PB/blob/main/ParanaBanco/GuiaDeInstala%C3%A7%C3%A3oRobot/Robot_Selenium.png)
 
 ### 📊 Exemplo de relatório do Robot Framework (report.html)
-(https://github.com/user-attachments/assets/aa6616ef-cd17-469d-9432-935133a115a2)
+[Exemplo de relatório do Robot Framework (report.html)](https://github.com/VitorLinsz/Desafio_Tecnico_WEB-API_PB/blob/main/ParanaBanco/GuiaDeInstala%C3%A7%C3%A3oRobot/Robot_log.png)
 
