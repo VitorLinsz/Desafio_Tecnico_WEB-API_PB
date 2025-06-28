@@ -140,16 +140,23 @@ pip install -r requirements.txt
 ## ✅ Bibliotecas utilizadas
 O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 
+
+## 🏷️ Mapeamento de Tags por Cenário
+
 ```
-| Biblioteca                         | Descrição                                           |
-| ---------------------------------- | --------------------------------------------------- |
-| `robotframework`                   | Framework principal para automação de testes        |
-| `robotframework-seleniumlibrary`   | Suporte para testes em interfaces web com Selenium  |
-| `robotframework-requests`          | Suporte para testes de APIs REST                    |
-| `robotframework-jsonlibrary`       | Manipulação e verificação de JSON                   |
-| `robotframework-faker`             | Geração de dados falsos para testes dinâmicos       |
-| `robotframework-jsonschemalibrary` | Validação de JSON Schema                            |
-| `chromedriver`                     | Driver necessário para execução no navegador Chrome |
+
+| Tag         | Cenários                                                                                      |
+|-------------|-----------------------------------------------------------------------------------------------|
+| `api`       | Todos os testes de API                                                                        |
+| `get`       | Garantir que o usuário consegue listar usuários por uma requisição GET                        |
+| `post`      | Garantir que o usuário consegue adicionar um novo usuário na lista de usuários                |
+| `put`       | Garantir que o usuário consegue editar os dados de um usuário existente                       |
+| `delete`    | Garantir que o usuário consegue remover um usuário da lista de usuários                       |
+| `web`       | Todos os testes de clique nos botões (azul, vermelho, verde, editar, excluir)                 |
+| `smoke`     | Clique nos botões Azul, Vermelho e Verde                                                      |
+| `regression`| Todos os testes marcados com regressão (Web e API)                                            |
+
+
 ```
 
 
@@ -168,9 +175,13 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 | Rodar testes de DELETE da API | `robot --include delete .`      |
 | Rodar testes de regressão     | `robot --include regression .`  |
 ```
-![image](https://github.com/user-attachments/assets/035d274b-5d07-42de-8028-1de9e34a6ce5)
 
-![image](https://github.com/user-attachments/assets/a7ae7767-ccbe-4e36-8633-76c9ac9d6f73)
+### 📸 Execução dos testes web no navegador (Robot Framework + Selenium)
+![Execução Web]![image](https://github.com/user-attachments/assets/035d274b-5d07-42de-8028-1de9e34a6ce5)
 
-![image](https://github.com/user-attachments/assets/aa6616ef-cd17-469d-9432-935133a115a2)
+### 📊 Exemplo de relatório do Robot Framework (report.html)
+![Relatório Robot]![image](https://github.com/user-attachments/assets/a7ae7767-ccbe-4e36-8633-76c9ac9d6f73)
+
+### 🧪 Execução de testes via terminal com filtros por tags
+![Execução Terminal]![image](https://github.com/user-attachments/assets/aa6616ef-cd17-469d-9432-935133a115a2)
 
