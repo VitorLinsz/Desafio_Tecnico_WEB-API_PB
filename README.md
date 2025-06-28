@@ -172,3 +172,5 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 
 ![image](https://github.com/user-attachments/assets/a7ae7767-ccbe-4e36-8633-76c9ac9d6f73)
 
+![image](https://github.com/user-attachments/assets/aa6616ef-cd17-469d-9432-935133a115a2)
+
