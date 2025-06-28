@@ -168,9 +168,6 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 | Rodar testes de DELETE da API | `robot --include delete .`      |
 | Rodar testes de regressão     | `robot --include regression .`  |
 ```
-
-## Executando testes:
-
 ![image](https://github.com/user-attachments/assets/035d274b-5d07-42de-8028-1de9e34a6ce5)
 
 ![image](https://github.com/user-attachments/assets/a7ae7767-ccbe-4e36-8633-76c9ac9d6f73)
