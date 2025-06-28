@@ -67,38 +67,40 @@
 Atuaria desde o início aplicando **Shift-left testing**, contribuindo em planejamento, definição de critérios de aceite e execução de testes. Também participaria ativamente do time, apoiando e sendo apoiado por pessoas de negócio, devs e demais membros do time. Contribuiria com **testes automatizados**, alimentando o fluxo de CI/CD e garantindo confiabilidade das entregas com cobertura regressiva.
 
 
+## 🗂 Estrutura do Projeto
+
+```
 automacaoweb/
 │
 ├── KeywordConstruction/
-│   └── KeywordConstructionWeb.robot          # Arquivo utilizado para construção de documentação automatizada em Gherkin (BDD)
+│   └── KeywordConstructionWeb.robot
 │
 ├── Resources/
-│   └── ResourcesAutomationWeb.robot          # Recurso central que importa bibliotecas e configurações para os testes web
+│   └── ResourcesAutomationWeb.robot
 │
 ├── Scenarios/
-│   ├── ClickButton.robot                     # Teste que realiza clique nos 3 botões principais (azul, vermelho, verde)
-│   ├── DeleteButton.robot                    # Teste que realiza clique em todos os botões "delete" da grid
-│   └── EditButton.robot                      # Teste que realiza clique em todos os botões "edit" da grid
+│   ├── ClickButton.robot
+│   ├── DeleteButton.robot
+│   └── EditButton.robot
 
 
 automacaoapi/
 │
 ├── KeywordConstruction/
-│   └── KeywordConstructionAPI.robot          # Arquivo utilizado para construção de documentação automatizada em Gherkin (BDD)
+│   └── KeywordConstructionAPI.robot
 │
 ├── Resources/
-│   └── ResourcesAutomationAPI.robot          # Recurso central que importa bibliotecas e configurações para os testes de API
+│   └── ResourcesAutomationAPI.robot
 │
 ├── Scenarios/
-│   ├── DELETE.robot                          # Teste de validação do verbo HTTP DELETE
-│   ├── GET_Schema.robot                      # Teste de validação do verbo HTTP GET e validação de schema
-│   ├── POST_Schema.robot                     # Teste de validação do verbo HTTP POST e validação de schema
-│   └── PUT_Schema.robot                      # Teste de validação do verbo HTTP PUT e validação de schema
+│   ├── DELETE.robot
+│   ├── GET_Schema.robot
+│   ├── POST_Schema.robot
+│   └── PUT_Schema.robot
 │
 ├── Schemas/
-│   ├── GET_Schema.json                       # Schema JSON para validação do GET
-│   ├── POST_Schema.json                      # Schema JSON para validação do POST
-│   └── PUT_Schema.json                       # Schema JSON para validação do PUT
-
-
+│   ├── GET_Schema.json
+│   ├── POST_Schema.json
+│   └── PUT_Schema.json
+```
 
