@@ -4,24 +4,25 @@
 
 ### 1. Como você iniciaria uma estratégia de teste?
 
-**Análise de negócio:** Realizar reuniões com a equipe de negócio e stakeholders para entender a dor do negócio. Alinhar fluxos principais, regras de negócio, funcionamento esperado e prioridades de entrega.
+**Análise de negócio:** Realizar reuniões com a equipe de negócio e stakeholders para entender a dor do negócio. Além de alinhar fluxos principais, regras de negócio, funcionamento esperado e prioridades de entrega
 
-**Levantamento dos cenários de teste com Shift Left:** Realizar levantamento dos cenários antes da funcionalidade ser desenvolvida. O ideal é que os testes estejam finalizados antes do código para uso dos testes durante o desenvolvimento.
+**Levantamento dos cenários de teste com Shift Left:** Realizar levantamento dos cenários de testes antes da funcionalidade começar a ser desenvolvida. O ideal é que os testes estejam finalizados antes do desenvolvimento do código para assim, a equipe de desenvolvimento utilizar dos testes durante o desenvolvimento do código
 
-**Definição dos critérios de aceite:** Levantamento conjunto com negócio e stakeholders para definir a "definição de pronto".
+**Definição dos critérios de aceite:** Realizar levantamento dos critérios de aceite com a área de negócio e stakeholders para levantar uma definição de pronto para o projetos.
 
-**Criação dos cenários de testes:** Utilizar tipos e técnicas de testes para todo o ciclo de desenvolvimento. Importante definir também quais testes serão automatizados.
+**Criação dos cenários de testes:** Realizar a criação dos cenários de testes aplicando tipos e técnicas de testes para serem executados durante todo o ciclo de desenvolvimento. Nessa etapa do processo, é importante levantar também quais são os testes que serão automatizados
 
-**Definição de execução dos cenários por prioridade:** Classificar criticidade dos cenários para priorizar execução, alinhado com a definição de pronto.
+**Definição de execução dos cenários por prioridade:** Realizar levantamento de criticidade de cada um dos cenários, para priorizar quais devem ser executados prioritariamente. Nessa etapa do processo, é necessário ter a definição de pronto finalizada para assegurar que todos os cenários estão cobertos
+
 
 ### 2. Quais abordagens de teste você consideraria?
 
 * **Análise de risco do projeto:** Identificar fluxos mais críticos e testes obrigatórios.
-* **BDD para padronização de testes e bugs:** Facilitar comunicação entre time técnico e de negócios.
+* **Escrita em Gherkin para padronização de histórias, testes e reporte de bugs:** Facilitar comunicação entre time técnico e de negócios.
 * **Categorizacão de problemas:** Identificar causa raiz dos bugs e gerar métricas para retrospectivas.
-* **Testes regressivos:** Desenvolver testes regressivos, priorizando automação
-* **Implementação CI/CD:** Executar testes a cada merge/release nas branches.
-* **Qualidade do código automatizado:** Monitorar métricas e identificar falsos positivos.
+* **Testes regressivos:** Desenvolver testes regressivos, priorizando automatizá-los e integrá-los via CI/CD
+* **Implementação CI/CD:** Executar testes a cada merge em branchs específicas.
+* **Qualidade do código automatizado:** Monitorar execuções e identificar falsos positivos.
 
 ### 3. Como você trabalharia com diferentes tipos/níveis de teste?
 
@@ -36,18 +37,18 @@
 
 **Testes Relacionados à Mudança:**
 
-* **Confirmação:** Após correção de bugs
-* **Regressão:** Garantia de estabilidade
-* **Manutenção:** Alterações de regras/funções
+* **Confirmação:** Aplicado pós correção de bugs
+* **Regressão:** Para mapear, desenvolver e manter testes regressivos para serem executados antes de qualquer deploy. Visando garantir que funcionalidades críticas e existentes permaneçam funcionando
+* **Manutenção:** Testes específicos quando há mudanças no funcionamento do sistema ou ajustes na regra de negócio
 
 **Técnicas de Teste:**
 
-* **Caixa-preta:** Comportamento/sintaxe
-* **Caixa-branca:** Lógica do código
-* **Baseado na experiência:** Exploratory Testing
-* **Valor Limite:** Valores mínimos/máximos
-* **Transição de Estados:** Validação de status
-* **Casos de Uso:** Baseado no negócio
+* **Caixa-preta:** Foco no comportamento e funcionalidade do sistema
+* **Caixa-branca:** Realizado principalmente por desenvolvedores, é utilizado para testar a lógica do código fonte de serviços críticos
+* **Baseado na experiência:** Focado na experiencia do QA, é uma técnica que consiste em testes sem a necessidade de um roteiro de testes
+* **Valor Limite:** Focado em campos com entrada de valor, é importante para testar valores mínimos e máximos de entrada de dados em componentes específicos
+* **Transição de Estados:** Foco em testar diferentes estados de operação de um objeto e/ou usuário no sistema
+* **Casos de Uso:** Foco em testar cenários reais de uso do sistema no ambiente de homologação
 
 ### 4. Quais ferramentas você consideraria usar?
 
