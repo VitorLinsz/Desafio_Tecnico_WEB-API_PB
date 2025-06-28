@@ -66,10 +66,12 @@
 
 Atuaria desde o início aplicando **Shift-left testing**, contribuindo em planejamento, definição de critérios de aceite e execução de testes. Também participaria ativamente do time, apoiando e sendo apoiado por pessoas de negócio, devs e demais membros do time. Contribuiria com **testes automatizados**, alimentando o fluxo de CI/CD e garantindo confiabilidade das entregas com cobertura regressiva.
 
+---
+
+## 🤖 Parte 2 – Automação de Testes
 
 
-
-## 🗂 Estrutura do Projeto
+### 🗂 Estrutura do Projeto
 
 ```
 automacaoweb/
