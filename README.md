@@ -126,7 +126,7 @@ Antes de rodar o projeto, é necessário garantir que os seguintes softwares est
 
 ## 📄 Documentação de Instalação:
 Segue arquivo PDF com o passo a passo completo para instalação do Python, Robot Framework e ChromeDriver incluso neste repositório.
-Consulte o arquivo **Guia_de_instalação_Robot_Framework.pdf** para orientações detalhadas de configuração do ambiente.
+Consulte o arquivo [Guia de Instalação]([./Guia_de_instalacao.pdf](https://github.com/VitorLinsz/Desafio_Tecnico_WEB-API_PB/blob/main/ParanaBanco/GuiaDeInstala%C3%A7%C3%A3oRobot/Guia_de_instalac%CC%A7a%CC%83o_Robot_Framework.pdf)) para orientações detalhadas de configuração do ambiente.
 
 ## 📦 Instalação das dependências
 As bibliotecas utilizadas no projeto estão listadas no arquivo **requirements.txt.**
