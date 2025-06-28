@@ -73,34 +73,35 @@ Atuaria desde o início aplicando **Shift-left testing**, contribuindo em planej
 automacaoweb/
 │
 ├── KeywordConstruction/
-│   └── KeywordConstructionWeb.robot
+│   └── KeywordConstructionWeb.robot          # Arquivo responsável pela documentação automatizada em Gherkin (BDD)
 │
 ├── Resources/
-│   └── ResourcesAutomationWeb.robot
+│   └── ResourcesAutomationWeb.robot          # Recurso central que importa bibliotecas e configurações para os testes web
 │
 ├── Scenarios/
-│   ├── ClickButton.robot
-│   ├── DeleteButton.robot
-│   └── EditButton.robot
+│   ├── ClickButton.robot                     # Teste que realiza clique nos 3 botões principais (azul, vermelho, verde)
+│   ├── DeleteButton.robot                    # Teste que realiza clique em todos os botões "delete" da grid
+│   └── EditButton.robot                      # Teste que realiza clique em todos os botões "edit" da grid
 
 
 automacaoapi/
 │
 ├── KeywordConstruction/
-│   └── KeywordConstructionAPI.robot
+│   └── KeywordConstructionAPI.robot          # Arquivo responsável pela documentação automatizada em Gherkin (BDD)
 │
 ├── Resources/
-│   └── ResourcesAutomationAPI.robot
+│   └── ResourcesAutomationAPI.robot          # Recurso central que importa bibliotecas e configurações para os testes de API
 │
 ├── Scenarios/
-│   ├── DELETE.robot
-│   ├── GET_Schema.robot
-│   ├── POST_Schema.robot
-│   └── PUT_Schema.robot
+│   ├── DELETE.robot                          # Teste de validação do verbo HTTP DELETE
+│   ├── GET_Schema.robot                      # Teste de validação do verbo HTTP GET e validação de schema
+│   ├── POST_Schema.robot                     # Teste de validação do verbo HTTP POST e validação de schema
+│   └── PUT_Schema.robot                      # Teste de validação do verbo HTTP PUT e validação de schema
 │
 ├── Schemas/
-│   ├── GET_Schema.json
-│   ├── POST_Schema.json
-│   └── PUT_Schema.json
+│   ├── GET_Schema.json                       # Schema JSON para validação do GET
+│   ├── POST_Schema.json                      # Schema JSON para validação do POST
+│   └── PUT_Schema.json                       # Schema JSON para validação do PUT
+
 ```
 
