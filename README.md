@@ -1,4 +1,4 @@
-# Real Estate QA Challenge
+# Analista de Automação de Testes Sênior
 
 ## ✨ Parte 1 – Estratégia de Testes
 
