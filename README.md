@@ -65,3 +65,36 @@
 ### 5. Como você se imagina atuando nessa equipe?
 
 Atuaria desde o início aplicando **Shift-left testing**, contribuindo em planejamento, definição de critérios de aceite e execução de testes. Também participaria ativamente do time, apoiando e sendo apoiado por pessoas de negócio, devs e demais membros do time. Contribuiria com **testes automatizados**, alimentando o fluxo de CI/CD e garantindo confiabilidade das entregas com cobertura regressiva.
+
+
+automacaoweb/
+│
+├── KeywordConstruction/
+│   └── KeywordConstructionWeb.robot
+├── Resources/
+│   └── ResourcesAutomationWeb.robot
+├── Scenarios/
+│   └── ClickButton.robot
+│   └── DeleteButton.robot
+│   └── EditButton.robot
+
+
+
+automacaoapi/
+│
+├── KeywordConstruction/
+│   └── KeywordConstructionAPI.robot
+├── Resources/
+│   └── ResourcesAutomationAPI.robot
+├── Scenarios/
+│   └── DELETE.robot
+│   └── GET_Schema.robot
+│   └── POST_Schema.robot
+│   └── PUT_Schema.robot
+├── Schemas/
+│   └── GET_Schema.json
+│   └── POST_Schema.json
+│   └── PUT_Schema.json
+
+
+
