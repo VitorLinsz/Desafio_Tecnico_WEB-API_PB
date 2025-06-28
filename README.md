@@ -143,8 +143,6 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 
 ## 🏷️ Mapeamento de Tags por Cenário
 
-```
-
 | Tag         | Cenários                                                                                      |
 |-------------|-----------------------------------------------------------------------------------------------|
 | `api`       | Todos os testes de API                                                                        |
@@ -157,12 +155,10 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 | `regression`| Todos os testes marcados com regressão (Web e API)                                            |
 
 
-```
+
 
 
 ## ⚙️ Executando os testes
-
-```
 
 | Cenário                       | Comando                         |
 | ------------------------------| ------------------------------- |
@@ -174,7 +170,7 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 | Rodar testes de PUT da API    | `robot --include put .`         |
 | Rodar testes de DELETE da API | `robot --include delete .`      |
 | Rodar testes de regressão     | `robot --include regression .`  |
-```
+
 
 
 ### 🧪 Execução de testes via terminal com filtros por tags
