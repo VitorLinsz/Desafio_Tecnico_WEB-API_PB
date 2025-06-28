@@ -189,4 +189,4 @@ O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 ## 👤 Sobre o Autor
 
 Desenvolvido por **Vitor Lins** – Analista de Automação de Testes Sênior  
-📫 [LinkedIn]([https://www.linkedin.com/in/seu-perfil](https://www.linkedin.com/in/vitor-ara%C3%BAjo-lins-48107918a/))  
+📫 [LinkedIn](https://www.linkedin.com/in/seu-perfil](https://www.linkedin.com/in/vitor-ara%C3%BAjo-lins-48107918a/)  
