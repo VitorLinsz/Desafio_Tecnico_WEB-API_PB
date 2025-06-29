@@ -71,11 +71,11 @@ Atuaria desde o início aplicando **Shift-left testing**, contribuindo em planej
 ### 📋 Exemplos de Cenários de Teste em Gherkin baseado no Business Case
 
 ```
-Feature: Cadastro de Imóvel por Imobiliária
+Feature: Cadastro de Imóvel
 
-  Cenário: Garantir que o usuário consegue cadastrar um imóvel por uma imobiliária
+  Cenário: Garantir que o usuário consegue cadastrar um imóvel
 
-    Dado que a imobiliária está cadastrada com dados válidos
+    Dado que a imobiliária está cadastrada
     Quando clicar no botão “Cadastrar Imóvel”
     E preencher todos os campos obrigatórios
     Então devo visualizar o cadastro do meu novo imóvel
@@ -85,9 +85,10 @@ Feature: Cadastro de Imóvel por Imobiliária
 Feature: Busca de Imóveis
 
   Cenário: Garantir que o usuário consegue buscar por um imóvel
+
     Dado que o usuário está acessando a interface de “Buscar por Imóvel”
-    Quando preencher todos os campos obrigatórios para efetuar uma busca
-    Então o sistema deve listar exclusivamente os imóveis que atendem aos critérios
+    Quando preencher todos os campos obrigatórios
+    Então o sistema deve listar exclusivamente os imóveis que atendem aos critérios passados na busca 
 ```
 
 ---
