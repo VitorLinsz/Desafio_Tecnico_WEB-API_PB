@@ -68,7 +68,7 @@
 Atuaria desde o início aplicando **Shift-left testing**, contribuindo em planejamento, definição de critérios de aceite e execução de testes. Também participaria ativamente do time, apoiando e sendo apoiado por pessoas de negócio, devs e demais membros do time. Contribuiria com **testes automatizados**, alimentando o fluxo de CI/CD e garantindo confiabilidade das entregas com cobertura regressiva.
 
 
-### 📋 Exemplos de Cenários de Teste em Gherkin baseado no Business Case
+### 📋 Exemplos de Cenários de Teste baseado no Business Case
 
 ```
 Feature: Cadastro de Imóvel
