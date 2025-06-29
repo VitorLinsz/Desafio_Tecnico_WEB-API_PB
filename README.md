@@ -82,7 +82,7 @@ Feature: Cadastro de Imóvel
 
 
 
-Feature: Busca de Imóveis
+Feature: Busca de Imóvel
 
   Cenário: Garantir que o usuário consegue buscar por um imóvel
 
