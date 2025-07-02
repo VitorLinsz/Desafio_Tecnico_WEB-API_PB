@@ -167,6 +167,15 @@ pip install -r requirements.txt
 ## ✅ Bibliotecas utilizadas
 O projeto utiliza as seguintes bibliotecas para automação de testes web e API:
 
+```
+SeleniumLibrary
+Collections
+RequestsLibrary
+JSONLibrary
+FakerLibrary
+JSONSchemaLibrary
+```
+
 
 ## 🏷️ Mapeamento de Tags por Cenário
 
