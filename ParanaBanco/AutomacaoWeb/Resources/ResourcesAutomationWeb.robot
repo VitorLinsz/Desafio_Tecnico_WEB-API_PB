@@ -46,10 +46,10 @@ Clicar em todos os botões de Editar
 
 Clicar em todos os botões de Excluir
     Wait Until Page Contains Element                                           xpath=//a[@href="#delete"]
-    ${LISTA_BOTOES_EDIT}=    Get WebElements                                   xpath=//a[@href="#delete"]
-    ${TAMANHO}=    Get Length    ${LISTA_BOTOES_EDIT}
+    ${LISTA_BOTOES_DELETE}=    Get WebElements                                   xpath=//a[@href="#delete"]
+    ${TAMANHO}=    Get Length    ${LISTA_BOTOES_DELETE}
     FOR    ${index}    IN RANGE    ${TAMANHO}
-        ${elemento}=        Get From List        ${LISTA_BOTOES_EDIT}    ${index}
+        ${elemento}=        Get From List        ${LISTA_BOTOES_DELETE}    ${index}
         Click Element    ${elemento}
         Sleep    1s
     END
